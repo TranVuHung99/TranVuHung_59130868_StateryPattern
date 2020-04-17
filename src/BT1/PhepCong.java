@@ -12,8 +12,8 @@ package BT1;
 public class PhepCong extends context{
 
     @Override
-    public String cal() {
-        return "Kêt quả là : "+performTinh(75, 12)+"\n";
+    public String cal(float a, float b) {
+        return "Kêt quả là : "+performTinh(a, b)+"\n";
     }
     
 }

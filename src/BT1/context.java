@@ -22,6 +22,6 @@ public abstract class context {
     public float performTinh(float a, float b){
         return tinhToan.tinh(a,b);
     } 
-    public abstract String cal();
+    public abstract String cal(float a ,float b);
     
 }

@@ -12,8 +12,8 @@ package BT1;
 public class PhepTru extends context{
 
     @Override
-    public String cal() {
-        return "Kết quả là: "+performTinh(54, 78)+"\n";
+    public String cal(float a, float b) {
+        return "Kết quả là: "+performTinh(a, b)+"\n";
     }
     
 }
